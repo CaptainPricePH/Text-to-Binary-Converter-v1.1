@@ -1,4 +1,4 @@
-# Stb Simple Text to Binary Converter
+# Simple Text to Binary Converter
 
 ![STB](1.png)
 Programmed in Python with PySimpleGUI.
