@@ -39,7 +39,8 @@ menu_def = [['&Edit', ['Refresh', '&Copy', '&Paste', 'E&xit']],
   
 layout = [[sg.Menu(menu_def, tearoff=True)],
           [sg.Text('Simple Text to Binary Converter', size=[40, 1])],      
-          [sg.Output(size=(80, 20), key='out')],      
+          [sg.Output(size=(80, 20), key='out')],
+          [sg.Text('Enter your text or binary here', size=[40, 1])],  
           [sg.Input(size=(80, 5), key='-key-')],
           [sg.Button('To binary'), sg.Button('To text')]]
 
