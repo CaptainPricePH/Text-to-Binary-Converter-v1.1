@@ -56,19 +56,19 @@ cw.exe
 
 
 # Sample 
----------------------------------------------------------------------------
+```
 testing
 
 1110100 1100101 1110011 1110100 1101001 1101110 1100111
----------------------------------------------------------------------------
+```
 
+```
 programing with python
 
 1110000 1110010 1101111 1100111 1110010 1100001 1101101 1101101 1101001 
 1101110 1100111 100000 1110111 1101001 1110100 1101000 100000 1110000 
 1111001 1110100 1101000 1101111 1101110
----------------------------------------------------------------------------
-
+```
 
 ## Donations
 If you would like to support me, donations are very welcome.
@@ -82,6 +82,6 @@ You can also use your own Paypal account to donate.
 ```
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/adrijano/crypto-watcher/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/adrijano/Text-to-Binary-Converter-v1.1)
 
 
