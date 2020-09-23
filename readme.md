@@ -50,7 +50,7 @@ python tbc.py
 ```
 cd dist
 
-cw.exe
+tbc.exe
 ```
 ![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
 
