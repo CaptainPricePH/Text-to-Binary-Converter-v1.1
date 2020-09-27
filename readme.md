@@ -14,7 +14,7 @@
 
 # If you like it give it a star
 
-[![GitHub stars](https://img.shields.io/github/stars/adrijano/Text-to-Binary-Converter-v1.1.svg?style=social&label=Star&maxAge=2592000)](https://github.com/adrijano/Text-to-Binary-Converter-v1.1)
+[![GitHub stars](https://img.shields.io/github/stars/adrijano/Text-to-Binary-Converter-v1.1.svg?style=social&label=Star&maxAge=0)](https://github.com/adrijano/Text-to-Binary-Converter-v1.1)
 
 
 # How it works
