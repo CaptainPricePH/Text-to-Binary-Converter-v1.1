@@ -8,7 +8,7 @@
 
 ![STB](txt.gif)
 
-[![paypal](https://svgshare.com/i/Q0_.svg)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)  [![Bitcoin](https://svgshare.com/i/PzX.svg)](https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6)
+[![paypal](https://svgshare.com/i/Q0_.svg)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)  [![Bitcoin](https://svgshare.com/i/QBo.svg)](https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6)
 
 **Programmed in Python | PySimpleGUI**
 
@@ -82,7 +82,7 @@ You can also use your own Paypal account to donate.
 
 You can also donate Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin and USD Coin.
 ```
-[![paypal](https://svgshare.com/i/Q0_.svg)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)  [![Bitcoin](https://svgshare.com/i/PzX.svg)](https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6)
+[![paypal](https://svgshare.com/i/Q0_.svg)](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url)  [![Bitcoin](https://svgshare.com/i/QBo.svg)](https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6)
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/adrijano/Text-to-Binary-Converter-v1.1)
 
