@@ -88,8 +88,10 @@ def create_main_window(settings):
     right_click_menu = ['Unused', ['&Copy', '&Paste','Settings', 'E&xit']]
 
     layout = [[sg.Menu(menu_def)],
-              [sg.Text('Text to Binary Converter', size=(60,1), font=('Helvetica', 11)), sg.Button('', key='paypal', size=(12,1), font=('Helvetica', 9), button_color=(sg.theme_background_color(), sg.theme_background_color()),
-                                                                image_filename='paypal.png', image_size=(80, 50), image_subsample=2, border_width=0)],      
+              [sg.Text('Text to Binary Converter', size=(50,1), font=('Helvetica', 11)), sg.Button('', key='paypal', size=(12,1), font=('Helvetica', 9), button_color=(sg.theme_background_color(), sg.theme_background_color()),
+                           image_filename='paypal.png', image_size=(80, 50), image_subsample=2, border_width=0),
+                 sg.Button('', key='bitcoin', size=(12,1), font=('Helvetica', 9), button_color=(sg.theme_background_color(), sg.theme_background_color()),
+                           image_filename='bitcoin.png', image_size=(80, 60), image_subsample=2, border_width=0)],      
               [sg.Output(size=(76, 14), key='out', font=('Helvetica', 11))],
               [sg.Text('Enter your text or binary here', size=[40, 1], font=('Helvetica', 9))],  
               [sg.Multiline(size=(76,6), key='-key-', font=('Helvetica', 11))],
@@ -109,8 +111,11 @@ def main():
             window = create_main_window(settings)
         event, value = window.Read()
         message = value['-key-'].rstrip()
+        if event in (None, 'Exit'):
+            break
 
-        if event == 'To binary':
+
+        elif event == 'To binary':
             cypher_message = cypher(message)
             print(cypher_message+"\n")
 
@@ -150,9 +155,10 @@ def main():
 
         elif event == 'paypal':
             webbrowser.open_new_tab("https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url")
+        
+        elif event == 'bitcoin':
+            webbrowser.open_new_tab("https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6")
 
-        elif event in (None, 'Exit'):
-            break
 
     window.Close()
 
