@@ -37,7 +37,7 @@ Continue with next byte
 
 # How to use
 
-### Python3+
+### Python3+ Windows
 ```
 git clone https://github.com/adrijano/Text-to-Binary-Converter-v1.1.git
 
@@ -46,7 +46,17 @@ cd Text-to-Binary-Converter-v1.1 && pip install -r requirements.txt
 python tbc.py
 ```
 
-### Windows:
+### Python3+ linux
+```
+git clone https://github.com/adrijano/Text-to-Binary-Converter-v1.1.git
+
+cd Text-to-Binary-Converter-v1.1 && pip install -r requirements.txt
+
+python3 tbc-linux.py
+```
+
+
+### Windows exe:
 ```
 cd dist
 
